@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import React from "react";
-import { Container } from "@components";
+import { Container } from "../Container";
 
 export const Header = () => {
   return (
