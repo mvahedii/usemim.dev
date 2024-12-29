@@ -26,8 +26,14 @@
       "@/*": [
         "./*"
       ],
-      "@components": [
-        "./app/components"
+      "@shared/components": [
+        "./shared/components"
+      ],
+      "@globalStyles": [
+        "./shared/styles/globals.css"
+      ],
+      "@home/components": [
+        "./app/(home)/components"
       ]
     }
   },
