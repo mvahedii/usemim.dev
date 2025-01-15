@@ -27,7 +27,13 @@
         "./*"
       ],
       "@components": [
-        "./app/components"
+        "./components"
+      ],
+      "@globalStyles": [
+        "./styles/globals.css"
+      ],
+      "@home/components": [
+        "./app/(home)/components"
       ]
     }
   },

@@ -1,9 +1,20 @@
-import { Container } from "./components";
+import { Container } from "@/components";
+import {
+  AboutMe,
+  LatestPost,
+  LatestLearnings,
+  ContactMe,
+} from "@/app/(home)/components";
 
 export default function Home() {
   return (
     <Container>
-      <h2>hi</h2>
+      <div className="space-y-16">
+        <AboutMe />
+        <LatestPost />
+        <LatestLearnings />
+        <ContactMe />
+      </div>
     </Container>
   );
 }
