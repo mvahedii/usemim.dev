@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#25242a",
+      },
+      dropShadow: {
+        "mini-black": "0.2px 0.2px 0.2px black",
       },
     },
   },
