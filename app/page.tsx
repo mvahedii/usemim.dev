@@ -1,11 +1,19 @@
-import { Container } from "@/shared/components";
-import { AboutMe } from "@/app/(home)/components";
+import { Container } from "@/components";
+import {
+  AboutMe,
+  LatestPost,
+  LatestLearnings,
+  ContactMe,
+} from "@/app/(home)/components";
 
 export default function Home() {
   return (
     <Container>
       <div className="space-y-16">
         <AboutMe />
+        <LatestPost />
+        <LatestLearnings />
+        <ContactMe />
       </div>
     </Container>
   );

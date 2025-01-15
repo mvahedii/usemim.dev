@@ -1,4 +1,4 @@
-import { Header, Footer } from "@/shared/components";
+import { Header, Footer } from "@/components";
 import "@globalStyles";
 
 export default function RootLayout({

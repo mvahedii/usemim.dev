@@ -26,11 +26,11 @@
       "@/*": [
         "./*"
       ],
-      "@shared/components": [
-        "./shared/components"
+      "@components": [
+        "./components"
       ],
       "@globalStyles": [
-        "./shared/styles/globals.css"
+        "./styles/globals.css"
       ],
       "@home/components": [
         "./app/(home)/components"
