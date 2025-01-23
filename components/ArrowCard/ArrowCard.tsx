@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import { ArrowCardProps } from "./ArrowCard.type";
+import React, { type FC } from "react";
+import type { ArrowCardProps } from "./ArrowCard.type";
 
 export const ArrowCard: FC<ArrowCardProps> = (props) => {
   return (
