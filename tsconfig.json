@@ -34,6 +34,9 @@
       ],
       "@home/components": [
         "./app/(home)/components"
+      ],
+      "@payload-config": [
+        "./payload.config.ts"
       ]
     }
   },
