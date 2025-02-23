@@ -6,14 +6,14 @@ const blogPosts = [
   { title: "Getting Started", description: "Hi to Hello World", id: 1 },
 ];
 
-export const LatestPost = () => {
+export const LatestLearnings = () => {
   return (
-    <section className="animate show space-y-6">
+    <section className="animate space-y-6">
       <div className="flex flex-wrap gap-y-2 items-center justify-between">
         <h5 className="font-semibold text-black dark:text-white">
-          Latest posts
+          Latest learnings
         </h5>
-        <Link href="/blog">See all posts</Link>
+        <Link href="/blog">See all learnings</Link>
       </div>
       <ul className="flex flex-col gap-4">
         {blogPosts.map((post) => (

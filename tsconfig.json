@@ -29,11 +29,14 @@
       "@components": [
         "./components"
       ],
+      "@hooks": [
+        "./hooks"
+      ],
       "@globalStyles": [
         "./styles/globals.css"
       ],
       "@home/components": [
-        "./app/(home)/components"
+        "app/(client)/(home)/components"
       ]
     }
   },
@@ -41,8 +44,9 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
-, "next.config.js"  ],
+    ".next/types/**/*.ts",
+    "next.config.js"
+  ],
   "exclude": [
     "node_modules"
   ]
