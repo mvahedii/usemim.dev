@@ -5,7 +5,7 @@ import { SITE, SOCIALS } from "./ContactMe.consts";
 // #
 export const ContactMe = () => {
   return (
-    <section className="animate show space-y-4">
+    <section className="animate space-y-4">
       <h5 className="font-semibold text-black dark:text-white">
         Let&apos;s Connect
       </h5>

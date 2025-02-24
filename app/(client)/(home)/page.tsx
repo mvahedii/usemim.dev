@@ -4,7 +4,7 @@ import {
   LatestPost,
   LatestLearnings,
   ContactMe,
-} from "@/app/(home)/components";
+} from "@/app/(client)/(home)/components";
 
 export default function Home() {
   return (
