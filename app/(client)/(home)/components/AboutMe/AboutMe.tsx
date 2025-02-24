@@ -4,21 +4,21 @@ export const AboutMe = () => {
   return (
     <>
       <h4 className="animate font-semibold text-black dark:text-white">
-        Hi, I&apos;m Mohammad <span className="text-xl">👋🏻</span>
+        Hey, I&apos;m Mohammad <span className="text-xl">👋🏻</span>
       </h4>
       <section>
         <article className="space-y-4">
           <p className="animate">
-            I am a minimal, seo friendly, accessible portfolio and blog for
-            developers. I am an even more lightweight version of my popular
-            theme . I have a lighthouse scores of 100 across the board for
-            performance, accesibility, best practices and SEO.
+            I write code, break code, fix code… and sometimes, I even push it to
+            production. Been doing this frontend thing for about 7 years, but
+            honestly, I just love building stuff—frontend, backend, doesn’t
+            matter. As long as I get to solve real problems, I’m in.
           </p>
           <p className="animate">
-            I come packed with full type safety, a sitemap, an rss feed,
-            markdown and mdx support (use components in your markdown) through
-            astro integrations. I am styled with tailwind and come preconfigured
-            with light, dark and system/os theme preferences out of the box.
+            This blog? It’s not a place for boring reposts or yet another
+            “Here’s what I read today” list. I’m here to tinker, rant, share
+            weird ideas, and maybe even break a few best practices (on purpose).
+            Stick around things might get messy… in a fun way!
           </p>
         </article>
       </section>
