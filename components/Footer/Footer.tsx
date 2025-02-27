@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "../Container";
 
 export const Footer = () => {
+  const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME;
   return (
     <footer className="animate show">
       <Container>
@@ -10,8 +11,7 @@ export const Footer = () => {
           {/* <BackToTop /> */}
           <div className="flex justify-between items-center">
             <div>
-              {/* TODO: Fix this line by move it in envs */}
-              &copy; 2024 {`|`} useMim
+              &copy; 2025 {`|`} {SITE_NAME}
             </div>
           </div>
         </div>
