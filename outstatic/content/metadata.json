@@ -1,0 +1,42 @@
+{
+  "commit": "07faaee04ddd4f9be11b5135b1e1828f3810e904",
+  "generated": "Sun, 02 Mar 2025 11:49:44 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "46437fb057adb00b97e355841778ce32c45999da",
+        "hash": "1024699753",
+        "path": "outstatic/content/posts/new-posts.md"
+      },
+      "author": {
+        "name": "MiMVaV",
+        "picture": "https://avatars.githubusercontent.com/u/43504442?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-03-02T12:10:13.087Z",
+      "slug": "new-posts",
+      "status": "draft",
+      "title": "New Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "17a6a1fc8294954ef3debce950a6de634015b856",
+        "hash": "190811912",
+        "path": "outstatic/content/posts/hello-world.md"
+      },
+      "author": {
+        "name": "useMim",
+        "picture": "https://avatars.githubusercontent.com/u/43504442?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "this is my description",
+      "publishedAt": "2025-03-02T09:21:13.433Z",
+      "slug": "hello-world",
+      "status": "draft",
+      "title": "Hello World"
+    }
+  ]
+}
