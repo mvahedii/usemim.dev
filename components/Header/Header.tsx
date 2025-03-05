@@ -13,7 +13,7 @@ export const Header = () => {
           </Link>
           <nav className="flex gap-1">
             <Link href="/blog">blog</Link>
-            <span>{`/`}</span>
+            <span>{"/"}</span>
             <Link href="/projects">projects</Link>
           </nav>
         </div>

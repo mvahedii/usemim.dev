@@ -11,7 +11,7 @@ export const Footer = () => {
           {/* <BackToTop /> */}
           <div className="flex justify-between items-center">
             <div>
-              &copy; 2025 {`|`} {SITE_NAME}
+              &copy; 2025 {"|"} {SITE_NAME}
             </div>
           </div>
         </div>
