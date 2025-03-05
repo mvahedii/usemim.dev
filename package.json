@@ -9,7 +9,12 @@
     "lint": "biome lint .",
     "lint:fix": "biome lint .",
     "format": "pnpm biome format --write",
-    "pre-commit": "pnpm run build"
+    "pre": "pnpm run build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build"
+    }
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.15",
