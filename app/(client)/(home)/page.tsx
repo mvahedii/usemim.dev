@@ -1,16 +1,15 @@
 import { Container } from "@/components";
-import {
-  AboutMe,
-  LatestPost,
-  ContactMe,
-} from "@/app/(client)/(home)/components";
+import { AboutMe, ContactMe } from "@/app/(client)/(home)/components";
+import { getPosts, LatestPosts } from "@/features/posts";
 
-export default function Home() {
+export default async function Home() {
+  const posts = await getPosts();
+  console.log("post", posts);
   return (
     <Container>
       <div className="space-y-16">
         <AboutMe />
-        <LatestPost />
+        <LatestPosts posts={posts} />
         <ContactMe />
       </div>
     </Container>
