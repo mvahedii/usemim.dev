@@ -29,14 +29,17 @@
       "@components": [
         "./components"
       ],
+      "@utils": [
+        "./utils"
+      ],
       "@hooks": [
         "./hooks"
       ],
+      "@features/post": [
+        "./features/posts"
+      ],
       "@globalStyles": [
         "./styles/globals.css"
-      ],
-      "@home/components": [
-        "./app/(client)/(home)/components"
       ]
     }
   },
