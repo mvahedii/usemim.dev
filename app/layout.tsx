@@ -1,6 +1,8 @@
 import { Header, Footer } from "@/components";
 import { ThemeProvider } from "@/provider";
 import { Exo_2 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "@globalStyles";
 
 const ExoFont = Exo_2({
@@ -22,6 +24,8 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
         </ThemeProvider>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
