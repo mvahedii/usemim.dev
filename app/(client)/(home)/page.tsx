@@ -4,7 +4,6 @@ import { getPosts, LatestPosts } from "@/features/posts";
 
 export default async function Home() {
   const posts = await getPosts();
-  console.log("post", posts);
   return (
     <Container>
       <div className="space-y-16">
